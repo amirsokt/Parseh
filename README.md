@@ -39,7 +39,7 @@ curl -fsSL https://raw.githubusercontent.com/amirsokt/Parseh/main/install.sh -o 
 یا:
 
 ```bash
-wget -qO /tmp/pgclock-install.sh https://raw.githubusercontent.com/Mrclocks/PGClockPRO/main/install.sh && sudo bash /tmp/pgclock-install.sh
+wget -qO /tmp/parseh-install.sh https://raw.githubusercontent.com/amirsokt/Parseh/main/install.sh && sudo bash /tmp/parseh-install.sh
 ```
 
 
@@ -91,7 +91,7 @@ var DEFAULT_BRAND = {
 ```bash
 sudo mkdir -p /var/lib/pasarguard/templates/subscription/
 sudo wget -N -O /var/lib/pasarguard/templates/subscription/index.html \
-  https://raw.githubusercontent.com/Mrclocks/PGClockPRO/main/index.html
+  https://raw.githubusercontent.com/amirsokt/Parseh/main/index.html
 ```
 
 ### ۲. ویرایش برند (اختیاری)
@@ -138,7 +138,7 @@ sudo pasarguard restart
 
 ```javascript
 var DEFAULT_BRAND = {
-  name: "MrClock Template",
+  name: "Parseh",
   subtitle: {
     fa: "پنل اشتراک",
     en: "Subscription panel"
@@ -166,3 +166,11 @@ var DEFAULT_BRAND = {
 1. پنل Pasarguard → **Settings → Subscription**
 2. ویرایش **announcement** و **announcement link**
 3. افزودن/ویرایش اپ‌ها در بخش apps
+
+---
+
+
+## نسخه‌های دیگر
+
+- [PGClock Lite](https://github.com/Mrclocks/PGClockLite) — سبک‌تر و سریع‌تر
+- [PGClock](https://github.com/Mrclocks/PGClock) — نسخهٔ استاندارد

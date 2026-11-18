@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Parseh Installer for Pasarguard
-# https://github.com/Mrclocks/PGClock
+# https://github.com/amirsokt/Parseh
 #
 set -euo pipefail
 
@@ -9,11 +9,11 @@ readonly SCRIPT_VERSION="1.4.1"
 readonly TARGET_DIR="/var/lib/pasarguard/templates/subscription"
 readonly TARGET_FILE="${TARGET_DIR}/index.html"
 readonly ENV_FILE="/opt/pasarguard/.env"
-readonly INSTALLER_RAW="https://raw.githubusercontent.com/Mrclocks/PGClock/main/install.sh"
+readonly INSTALLER_RAW="https://raw.githubusercontent.com/amirsokt/Parseh/main/install.sh"
 
 readonly URL_LITE="https://raw.githubusercontent.com/Mrclocks/PGClockLite/main/index.html"
 readonly URL_STANDARD="https://raw.githubusercontent.com/Mrclocks/PGClock/main/index.html"
-readonly URL_PRO="https://raw.githubusercontent.com/Mrclocks/PGClockPRO/main/index.html"
+readonly URL_PRO="https://raw.githubusercontent.com/amirsokt/Parseh/main/index.html"
 
 # When run via "curl | bash", stdin is the pipe — re-download and re-run from a real file.
 if [[ ! -t 0 ]] && [[ -z "${PGCLOCK_INSTALL_REEXEC:-}" ]]; then
@@ -416,7 +416,7 @@ prompt_pro_branding() {
   log_line "${C_DIM}Press Enter to skip any field and keep the default value${C_RESET}"
   log_blank
 
-  read_tty "$(printf '%b' "${C_BOLD}Brand name${C_RESET} (e.g. MrClock): ")" brand_name
+  read_tty "$(printf '%b' "${C_BOLD}Brand name${C_RESET} (e.g. Parseh): ")" brand_name
   brand_name="${brand_name:-}"
 
   read_tty "$(printf '%b' "${C_BOLD}Tagline / caption${C_RESET} (e.g. Subscription panel): ")" brand_subtitle
