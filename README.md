@@ -33,7 +33,7 @@
 روی سرور **Ubuntu** با Pasarguard نصب‌شده:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Mrclocks/PGClockPRO/main/install.sh -o /tmp/pgclock-install.sh && sudo bash /tmp/pgclock-install.sh
+curl -fsSL https://raw.githubusercontent.com/amirsokt/Parseh/main/install.sh -o /tmp/parseh-install.sh && sudo bash /tmp/parseh-install.sh
 ```
 
 یا:
