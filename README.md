@@ -166,11 +166,3 @@ var DEFAULT_BRAND = {
 1. پنل Pasarguard → **Settings → Subscription**
 2. ویرایش **announcement** و **announcement link**
 3. افزودن/ویرایش اپ‌ها در بخش apps
-
----
-
-
-## نسخه‌های دیگر
-
-- [PGClock Lite](https://github.com/Mrclocks/PGClockLite) — سبک‌تر و سریع‌تر
-- [PGClock](https://github.com/Mrclocks/PGClock) — نسخهٔ استاندارد
